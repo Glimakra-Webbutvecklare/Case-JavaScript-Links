@@ -5,10 +5,10 @@ Du ska skapa en applikation som dynamiskt kan hantera en lista med länkar.
 Här är ett exempel:
 
 
-Att göra
-- (http://aftonbladet.se)[Aftonbladet]
-- (http://expressen.se)(Expressen)
-- (http://dn.se)[Dagens nyheter]
+Länksamling
+- [Aftonbladet](http://aftonbladet.se)
+- (Expressen)(http://expressen.se)
+- [Dagens nyheter](http://dn.se)
 
 Struktur och innehåll ska baseras på html elementen ul, li och a. Den som använder applikationen ska förstå hur man gör för att använda listan. Det kan ske med ikoner, knappar, information etc - ett designat gränssnitt. 
 

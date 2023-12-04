@@ -1,15 +1,16 @@
 # Case-JavaScript-Links
-Case modul 3 - JavaScript
 
-Du ska skapa en applikation som dynamiskt kan hantera en lista med länkar. 
-Här är ett exempel:
+### Case Modul 3 - Grundläggande JavaScript
 
+Din uppgift är att skapa en applikation som dynamiskt kan hantera en lista med länkar. 
+Här är ett exempel på en länksamling:
 
 Länksamling
 - [Aftonbladet](http://aftonbladet.se)
 - [Expressen](http://expressen.se)
 - [Dagens nyheter](http://dn.se)
 
+Du ska skapa ett formulär som gör det möjligt att skapa en liknande lista, med länk och länktext. 
 Struktur och innehåll ska baseras på html elementen ul, li och a. Den som använder applikationen ska förstå hur man gör för att använda listan. Det kan ske med ikoner, knappar, information etc - ett designat gränssnitt. 
 
 Vi vill att du strävar efter följande namngivningsprinciper:
@@ -43,7 +44,7 @@ En användare ska kunna
 - ta bort en länk
 - markera en länk
 
-Formulärfält ska valideras med inbyggda metoder i HTML (attribut som ex required).
+Formulärfält ska valideras med inbyggda metoder i HTML (attribut som ex required). Det ska inte skapas ett listelement om inte det finns en länk angiven.
 Listan ska kunna fungera för en skärm.
 
 Utvecklingen av applikationen ska finnas dokumenterad på GitHub. Du ska ha gjort minst 10 commits under projektet.
@@ -57,11 +58,10 @@ Här finns följande utmaningar. Anta en eller flera!
 
 En användare ska kunna
 - redigera en länk 
-- lägga till en länk med en kompletterande bild
 - flytta en länk uppåt eller nedåt i listan
-- använd array för att lägga till länkar, ex initialt fylla en tom lista med några länkar  
+- använd array för att lägga till länkar, ex initialt fylla en tom lista med några länkar
+- designa sidan så att den som besöker sidan ser vilken kategori av länkar som är tanken (film, musik, historia...) 
 
-Information som kommer från formulär ska valideras med JavaScript.
 Listan ska kunna fungera för mobil och skärm.
 
 ***

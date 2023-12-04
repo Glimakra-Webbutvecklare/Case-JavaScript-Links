@@ -59,6 +59,7 @@ En användare ska kunna
 - redigera en länk 
 - lägga till en länk med en kompletterande bild
 - flytta en länk uppåt eller nedåt i listan
+- använd array för att lägga till länkar, ex initialt fylla en tom lista med några länkar  
 
 Information som kommer från formulär ska valideras med JavaScript.
 Listan ska kunna fungera för mobil och skärm.

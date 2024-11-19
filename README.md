@@ -26,7 +26,7 @@ Dela upp struktur, innehåll, design och logik.
 
 ### Starta ditt arbete
 Skapa ett privat repo på GitHub och koppla det till din lokala utvecklingsmiljö (Visual Studio Code).
-Under projektet - senast 8 decemeber bjuder du in dina lärare. Se Settings -> Manage access -> Add people
+Under projektet - senast 27 november bjuder du in dina lärare. Se Settings -> Manage access -> Add people
 
 Lägg till
 
@@ -74,7 +74,7 @@ En användare ska kunna
 ***
 
 ### Inlämning och redovisning
-Redovisning av caset är den 19 december.
+Redovisning av caset är den 11 december.
 
 Förbered er på att redovisa applikationen på ca 5 minuter. Då visar ni (demonstrerar) er applikation genom att dela skärm.
 Vi ränkar med att redovisningen startar kl 9:00.
@@ -91,6 +91,6 @@ Vi ränkar med att redovisningen startar kl 9:00.
 Redovisningen sker i bokstavordning (efternamn A-Ö)
 
 ### Handledning
-Det kommer finnas möjlighet till handledning fram tills den 19 december. I första hand är det under vanlig lektionstid.
+Det kommer finnas möjlighet till handledning fram tills den 10 december. I första hand är det under vanlig lektionstid.
 
 Lycka till!

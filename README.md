@@ -1,4 +1,4 @@
-# Case-JavaScript-Links
+# Case3-JavaScript
 
 ### Case Modul 3 - Grundläggande JavaScript
 
@@ -10,8 +10,8 @@ Länksamling
 - [Expressen](http://expressen.se)
 - [Dagens nyheter](http://dn.se)
 
-Du ska skapa ett formulär som gör det möjligt att skapa en liknande lista, med länk och länktext. 
-Struktur och innehåll ska baseras på html elementen ul, li och a. Den som använder applikationen ska förstå hur man gör för att använda listan. Det kan ske med ikoner, knappar, information etc - ett designat gränssnitt. 
+Du ska skapa funktionalitet om gör det möjligt att dynamiskt skapa en lista av länkar enligt exemplet 'Länksamling' ovan. Din kod ska innehålla ett formulär med lämpliga formulärfält. En användare ska kunna använda formuläret för att skapa klickbara länkar.
+Struktur och innehåll i länklistan ska baseras på html elementen ul, li och a. Den som använder applikationen ska förstå hur man gör för att skapa nya länkar. Det kan ske med ikoner, knappar, grafik, information etc - ett designat gränssnitt. 
 
 Vi vill att du strävar efter följande namngivningsprinciper:
 - använd latinska tecken för variabelnamn och funktioner
@@ -22,7 +22,7 @@ Vi vill att du strävar efter följande namngivningsprinciper:
 
 Applikationen får inte använda externa ramverk, utan det är *vanilla* JavaScript och CSS som gäller.
 
-Dela upp struktur, innehåll, design och logik. Använd externa filer för CSS och JavaScript.
+Dela upp struktur, innehåll, design och logik. 
 
 ### Starta ditt arbete
 Skapa ett privat repo på GitHub och koppla det till din lokala utvecklingsmiljö (Visual Studio Code).
@@ -39,15 +39,23 @@ addkolon [Mattias]
 ***
 
 ### Grundläggande krav
+
+Applikationen ska
+- visa en tom länklistan när sidan läses in
+- innehålla minst en media query (baseras på sidans bredd) som hanterar vy för mobil och skärm
+- inte skapa ett listelement om det inte finns en url eller länktext angiven
+
 En användare ska kunna
 - lägga till en länk
 - ta bort en länk
-- markera en länk
+- markera en länk (ex visuellt ange favoritlänk)
 
-Formulärfält ska valideras med inbyggda metoder i HTML (attribut som ex required). Det ska inte skapas ett listelement om inte det finns en länk angiven.
-Listan ska kunna fungera för en skärm.
+Din kod ska 
+- använda externa filer för CSS och JavaScript
+- validera innehållet i ett formulär med kod som du själv skapar baserat på datatypen **string**. 
+(Dvs - om du validerar ett fält i ett formulär med ett attribut ska det även finnas en egen validering)  
 
-Utvecklingen av applikationen ska finnas dokumenterad på GitHub. Du ska ha gjort minst 10 commits under projektet.
+Utvecklingen av applikationen ska finnas dokumenterad på GitHub. Du ska ha gjort minst 10 commits under perioden du arbetar med projektet.
 
 ***
 
@@ -58,11 +66,10 @@ Här finns följande utmaningar. Anta en eller flera!
 
 En användare ska kunna
 - redigera en länk 
-- flytta en länk uppåt eller nedåt i listan
-- använd array för att lägga till länkar, ex initialt fylla en tom lista med några länkar
+- flytta en länk upp eller ned i listan
+- använd en array för att lägga till länkar i samband med att sidan laddas in, ex initialt fylla en tom lista med några länkar
 - designa sidan så att den som besöker sidan ser vilken kategori av länkar som är tanken (film, musik, historia...) 
 
-Listan ska kunna fungera för mobil och skärm.
 
 ***
 

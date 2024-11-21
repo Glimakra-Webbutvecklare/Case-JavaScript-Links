@@ -44,6 +44,11 @@ En användare ska kunna
 - ta bort en länk
 - markera en länk
 
+### Grundläggande designkrav
+- Figma-skiss
+- CSS: Någon del av koden skall använda sig av Flex eller Grid.
+- Ikonbibliotek: Använd er någon ikonbibliotek, t ex FontAwesome eller IonIcons
+
 Formulärfält ska valideras med inbyggda metoder i HTML (attribut som ex required). Det ska inte skapas ett listelement om inte det finns en länk angiven.
 Listan ska kunna fungera för en skärm.
 
